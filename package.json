@@ -1,0 +1,20 @@
+{
+  "name": "webdb-iv",
+  "version": "1.0.0",
+  "description": "web18 db project",
+  "main": "index.js",
+  "repository": "https://github.com/jsmoot93/webdb-iv-challenge.git",
+  "author": "jsmoot93 <47538435+jsmoot93@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
